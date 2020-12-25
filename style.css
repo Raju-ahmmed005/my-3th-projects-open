@@ -1,0 +1,46 @@
+ *{
+  	margin: 0;
+  	padding: 0;
+  
+  }
+.Menu{
+	list-style-type: none;
+	width: 1200px;
+	min-height: 55px;
+	background: black;
+	padding: 0;
+	margin: 25px auto;
+}
+
+
+
+.Menu li a{
+	text-decoration: none;
+	color: white;
+	background: black;
+	padding: 10px 20px;
+	font-size: 30px;
+	text-align: center;
+	display: inline-block;
+	transition: all 1s ease;
+	
+}
+
+
+
+.Menu li a:hover{
+	background: red;
+
+}
+
+.Menu li {
+    float: left;
+    border-right: 1px solid #7d2a2a;
+    border-left: 1px solid #c18923;
+}
+.Menu li:last-child{
+	border-right: none;
+}
+.Menu li:first-child{
+	border-left: none;
+}
